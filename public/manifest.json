@@ -1,0 +1,26 @@
+{
+  "name": "ACS — Attention Competition Simulator",
+  "short_name": "ACS",
+  "description": "Estimate attentional fragmentation in digital interfaces using the Biased Competition Model. CS 6795 Georgia Tech.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#0062cc",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "screenshots": []
+}
