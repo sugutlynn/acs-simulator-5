@@ -30,8 +30,7 @@ The ACS implements a 4-stage pipeline grounded in:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.gatech.edu/lsugut3/cs6795-acs.git
-cd cs6795-acs
+git clone https://github.com/sugutlynn/acs-simulator-5.git
 
 # 2. Install dependencies
 npm install
@@ -57,40 +56,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | `ANTHROPIC_API_KEY` | Optional | Server-side key for AI feature extraction. If set, users don't need to enter a key in the UI. If not set, users can enter their own key in the interface. |
 
 ---
-
-## Deploy to Vercel
-
-### One-click deploy
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.gatech.edu/lsugut3/cs6795-acs)
-
-### Manual deploy via Vercel CLI
-
-```bash
-# Install Vercel CLI (once)
-npm install -g vercel
-
-# Deploy (follow prompts)
-vercel
-
-# Set your API key as a Vercel environment variable
-vercel env add ANTHROPIC_API_KEY
-
-# Deploy to production
-vercel --prod
-```
-
-### Manual deploy via Vercel Dashboard
-
-1. Go to [vercel.com/new](https://vercel.com/new)
-2. Import this repository
-3. In **Environment Variables**, add `ANTHROPIC_API_KEY` with your key
-4. Click **Deploy**
-
-Vercel will automatically detect Next.js and configure the build.
-
----
-
 ## Project Structure
 
 ```
